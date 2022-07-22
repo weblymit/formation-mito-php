@@ -15,7 +15,7 @@
       quis atque! Iure laboriosam, rerum saepe enim odio asperiores odit natus ipsam. Excepturi tempora vel pariatur.
     </p>
   </div>
-  <form action="" class="max-w-2xl mx-auto bg-gray-50 px-2 py-6 md:p-8 rounded shadow">
+  <form  class="max-w-2xl mx-auto bg-gray-50 px-2 py-6 md:p-8 rounded shadow">
     <div class="">
       <label for="name" class="font-bold text-gray-500">Nom </label>
       <input type="text" name="name" class="border rounded block w-full p-2 mt-3" placeholder="Votre nom">
@@ -24,6 +24,9 @@
       <label for="message" class="font-bold text-gray-500">Message </label>
       <textarea name="message" id="" cols="10" rows="10" class="border rounded block w-full p-2 mt-3"
         placeholder="Votre nom"></textarea>
+    </div>
+    <div class="flex justify-center">
+      <button  class="bg-blue-500 mt-5 p-2 text-gray-100 rounded">Envoyer</button>
     </div>
   </form>
 </section>
