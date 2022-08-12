@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Mita - <?= $title ?></title>
 </head>
 
@@ -23,14 +23,15 @@
   <nav class="bg-gray-100 px-20 py-6 fixed w-full z-50">
     <div class="md:flex justify-between ">
       <div class="flex justify-center mb-5 md:mb-0">
-        <a href="/">
-          <img src="../assets/img/mito.png" alt="" class="w-16">
+        <a href="index.php">
+          <img src="./assets/img/mito.png" alt="" class="w-16">
         </a>
       </div>
       <div class="space-x-4 md:space-x-10">
         <a href="/" class="<?= ($activePage == '/') ? $active : '';  ?>">Home</a>
         <a href="products.php" class="<?= ($activePage == '/products.php') ? $active : '';  ?>">Produits</a>
         <a href="contact.php" class="<?= ($activePage == '/contact.php') ? $active : '';  ?>">Contact</a>
+        <a href="admin/products.php" class="">Backoffice</a>
       </div>
     </div>
   </nav>
