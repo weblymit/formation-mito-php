@@ -1,5 +1,5 @@
  <!-- The button to open modal -->
- <label for="my-modal" class="btn btn-error btn-sm text-white modal-button">X</label>
+ <label for="my-modal" class="btn btn-error btn-sm text-white modal-button">supp.</label>
  <!-- Put this part before </body> tag -->
  <input type="checkbox" id="my-modal" class="modal-toggle" />
  <div class="modal">

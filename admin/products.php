@@ -8,7 +8,7 @@ require_once("../helpers/pdo.php");
 ?>
 <div class="flex ">
   <?php include("partials/_navbar-bck.php") ?>
-  <?php include("partials/_products.php") ?>
+  <?php include("partials/_content-products.php") ?>
 </div>
 
 <?php include('partials/_footer-bck.php') ?>

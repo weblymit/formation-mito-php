@@ -1,6 +1,6 @@
 <nav class="bg-green-400 h-screen w-1/6 p-10">
   <div class="flex justify-centers mb-10 ">
-    <a href="index.php">
+    <a href="./../index.php">
       <img src="./../assets/img/mito.png" alt="mito logo" class="w-16">
     </a>
   </div>
